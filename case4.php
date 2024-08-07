@@ -12,7 +12,7 @@ function getPrice($product_name) {
 $price = getPrice('すいか');
 // 無料の商品
 if ($price == 0) {
-    echo '商品Aはただです!'; // NULLと数値の0が等しいと評価される
+    echo '商品Aはただです!';
     $price = 0;
 }
 ?>

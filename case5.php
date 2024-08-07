@@ -7,7 +7,7 @@ function discount($price) {
 // 商品名から値段を取得する
 function getPrice($product_name) {
     if ($product_name=='りんご') {
-        return '品切れ中です。';
+        return 100;
     }
     return 10000;
 }
